@@ -1,7 +1,7 @@
-Testing Language Models (LLMs) in Google Colab
+# Testing Language Models (LLMs) and Whisper in Google Colab
 This repository contains code for testing and utilizing Language Models (LLMs) using Google Colab. It demonstrates how to use different models for automatic speech recognition (ASR) and text summarization tasks.
 
-Setup
+## Setup
 To run the provided code, follow these steps:
 
 1. Clone the Repository
@@ -30,14 +30,14 @@ You will need access to Google Colab to run the provided code interactively in a
 4. Upload Audio File
 Upload an audio file (heard.mp3) containing the conversation you want to process to the root directory of your Google Colab notebook.
 
-Usage
+## Usage
 Open the llm_testing.ipynb notebook in Google Colab.
 Run each cell sequentially to execute the code.
 The notebook will perform automatic speech recognition (ASR) on the uploaded audio file and generate a textual transcript (new_text).
 The code will then use a pretrained language model (LLM) to summarize the main points discussed in the conversation.
 
 The summarized text will be displayed as the output.
-Repository Structure
+## Repository Structure
 
 llm-testing/
 │
@@ -46,10 +46,10 @@ llm-testing/
 ├── requirements.txt       # List of Python dependencies
 └── README.md              # Repository README file (you are here)
 
-References
+## References
 Hugging Face Transformers
 Google Colab
 PyTorch
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
