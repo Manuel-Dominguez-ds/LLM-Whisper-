@@ -1,33 +1,45 @@
 # Testing Language Models (LLMs) and Whisper in Google Colab
-This repository contains code for testing and utilizing Language Models (LLMs) using Google Colab. It demonstrates how to use different models for automatic speech recognition (ASR) and text summarization tasks.
+This repository contains code for testing and utilizing Language Models (LLMs) using Google Colab (T4 GPU). It demonstrates how to use different models for automatic speech recognition (ASR) and text summarization tasks.
 
 ## Setup
 To run the provided code, follow these steps:
 
-1. Clone the Repository
+### 1. Clone the Repository
 Clone this repository to your local machine using Git:
 
 git clone https://github.com/your-username/llm-testing.git
-2. Install Dependencies
+
+### 2. Install Dependencies
 Ensure you have the required Python packages installed. You can use the following commands to install them:
 
  !pip install -q -U bitsandbytes
+ 
  !pip install -q -U git+https://github.com/huggingface/transformers.git
+ 
  !pip install -q -U git+https://github.com/huggingface/peft.git
+ 
  !pip install -q -U git+https://github.com/huggingface/accelerate.git
+ 
  !pip install -q -U einops
+ 
  !pip install -q -U safetensors
+ 
  !pip install -q -U torch
+
  !pip install -q -U xformers
+ 
  !pip install -q -U langchain
+ 
  !pip install -q -U ctransformers[cuda]
+ 
  !pip install chromadb
+ 
  !pip install sentence-transformers
 
-3. Set Up Google Colab
+### 3. Set Up Google Colab
 You will need access to Google Colab to run the provided code interactively in a Jupyter notebook environment.
 
-4. Upload Audio File
+### 4. Upload Audio File
 Upload an audio file (heard.mp3) containing the conversation you want to process to the root directory of your Google Colab notebook.
 
 ## Usage
